@@ -9,6 +9,7 @@ using namespace std;
 // DP
 // dp[i][j] = dp[i-1][j-nums[i]] + dp[i-1][j+nums[j]]
 // best answer dp[n-1][target]
+// NOT FINISHED
 class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int target) {
